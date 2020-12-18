@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043D650C42442F064F43F8CB /* CTMediator+DCBModule_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 984F59F1B476636BFC90ECE4 /* CTMediator+DCBModule_Category.m */; };
+		1D8117F6F730B2F12D26288D /* Target_DCBModule_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = D38972F844601EA6167BA6FA /* Target_DCBModule_Category.m */; };
 		43B6FE90258C7F4A00CCE032 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B6FE8F258C7F4A00CCE032 /* AppDelegate.m */; };
 		43B6FE93258C7F4A00CCE032 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B6FE92258C7F4A00CCE032 /* SceneDelegate.m */; };
 		43B6FE96258C7F4A00CCE032 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B6FE95258C7F4A00CCE032 /* ViewController.m */; };
@@ -16,6 +18,9 @@
 		43B6FEA1258C7F4C00CCE032 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B6FEA0258C7F4C00CCE032 /* main.m */; };
 		43B6FEAB258C7F4C00CCE032 /* DCBModule_CategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B6FEAA258C7F4C00CCE032 /* DCBModule_CategoryTests.m */; };
 		43B6FEB6258C7F4C00CCE032 /* DCBModule_CategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B6FEB5258C7F4C00CCE032 /* DCBModule_CategoryUITests.m */; };
+		5BACA96A51F929E62E9DBD8D /* Pods_DCBModule_Category.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BBBE0FE0A61C7A5C64FE51F /* Pods_DCBModule_Category.framework */; };
+		901B5EEF8FEFA786AD2E1F94 /* CTMediator+DCBModule_Category.h in Headers */ = {isa = PBXBuildFile; fileRef = C9B5BE5F6D89B38C8CE6FA1B /* CTMediator+DCBModule_Category.h */; };
+		AB0B33DF04B761F9CC65D551 /* Target_DCBModule_Category.h in Headers */ = {isa = PBXBuildFile; fileRef = E813A342352D45EC00CFA24E /* Target_DCBModule_Category.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29779CC04B599101A740CBD1 /* DCBModule_Category.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text.script.ruby; name = DCBModule_Category.podspec; path = ../DCBModule_Category.podspec; sourceTree = "<group>"; };
 		43B6FE8B258C7F4A00CCE032 /* DCBModule_Category.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCBModule_Category.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B6FE8E258C7F4A00CCE032 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		43B6FE8F258C7F4A00CCE032 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +60,14 @@
 		43B6FEB1258C7F4C00CCE032 /* DCBModule_CategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DCBModule_CategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B6FEB5258C7F4C00CCE032 /* DCBModule_CategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCBModule_CategoryUITests.m; sourceTree = "<group>"; };
 		43B6FEB7258C7F4C00CCE032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BBBE0FE0A61C7A5C64FE51F /* Pods_DCBModule_Category.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DCBModule_Category.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64370B785DF8F9F00A719CAA /* Pods-DCBModule_Category.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCBModule_Category.release.xcconfig"; path = "Target Support Files/Pods-DCBModule_Category/Pods-DCBModule_Category.release.xcconfig"; sourceTree = "<group>"; };
+		7DE3244A9814051EAEB84C31 /* DCBModule_Category_Extension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text.script.ruby; name = DCBModule_Category_Extension.podspec; path = ../DCBModule_Category_Extension.podspec; sourceTree = "<group>"; };
+		7E38E14F527E901B184D28DE /* Pods-DCBModule_Category.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCBModule_Category.debug.xcconfig"; path = "Target Support Files/Pods-DCBModule_Category/Pods-DCBModule_Category.debug.xcconfig"; sourceTree = "<group>"; };
+		984F59F1B476636BFC90ECE4 /* CTMediator+DCBModule_Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+DCBModule_Category.m"; path = "Category/CTMediator+DCBModule_Category.m"; sourceTree = "<group>"; };
+		C9B5BE5F6D89B38C8CE6FA1B /* CTMediator+DCBModule_Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+DCBModule_Category.h"; path = "Category/CTMediator+DCBModule_Category.h"; sourceTree = "<group>"; };
+		D38972F844601EA6167BA6FA /* Target_DCBModule_Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_DCBModule_Category.m; path = Source/Target/Target_DCBModule_Category.m; sourceTree = "<group>"; };
+		E813A342352D45EC00CFA24E /* Target_DCBModule_Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_DCBModule_Category.h; path = Source/Target/Target_DCBModule_Category.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BACA96A51F929E62E9DBD8D /* Pods_DCBModule_Category.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FF35C9B30943CF4674915D9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C9B5BE5F6D89B38C8CE6FA1B /* CTMediator+DCBModule_Category.h */,
+				984F59F1B476636BFC90ECE4 /* CTMediator+DCBModule_Category.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 		43B6FE82258C7F4A00CCE032 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +112,8 @@
 				43B6FEA9258C7F4C00CCE032 /* DCBModule_CategoryTests */,
 				43B6FEB4258C7F4C00CCE032 /* DCBModule_CategoryUITests */,
 				43B6FE8C258C7F4A00CCE032 /* Products */,
+				50DA0F1B10533EE60DA3E02E /* Pods */,
+				9D349F260D3F5A3B74BA4232 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +141,10 @@
 				43B6FE9C258C7F4C00CCE032 /* LaunchScreen.storyboard */,
 				43B6FE9F258C7F4C00CCE032 /* Info.plist */,
 				43B6FEA0258C7F4C00CCE032 /* main.m */,
+				6BCEBC4098EBAF4FD4571C90 /* Source */,
+				2FF35C9B30943CF4674915D9 /* Category */,
+				29779CC04B599101A740CBD1 /* DCBModule_Category.podspec */,
+				7DE3244A9814051EAEB84C31 /* DCBModule_Category_Extension.podspec */,
 			);
 			path = DCBModule_Category;
 			sourceTree = "<group>";
@@ -137,16 +167,66 @@
 			path = DCBModule_CategoryUITests;
 			sourceTree = "<group>";
 		};
+		50DA0F1B10533EE60DA3E02E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E38E14F527E901B184D28DE /* Pods-DCBModule_Category.debug.xcconfig */,
+				64370B785DF8F9F00A719CAA /* Pods-DCBModule_Category.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6BCEBC4098EBAF4FD4571C90 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9C3A4BDB706B02327A81BE43 /* Target */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		9C3A4BDB706B02327A81BE43 /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				E813A342352D45EC00CFA24E /* Target_DCBModule_Category.h */,
+				D38972F844601EA6167BA6FA /* Target_DCBModule_Category.m */,
+			);
+			name = Target;
+			sourceTree = "<group>";
+		};
+		9D349F260D3F5A3B74BA4232 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BBBE0FE0A61C7A5C64FE51F /* Pods_DCBModule_Category.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E380F413FC37A926D4A2B6C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0B33DF04B761F9CC65D551 /* Target_DCBModule_Category.h in Headers */,
+				901B5EEF8FEFA786AD2E1F94 /* CTMediator+DCBModule_Category.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		43B6FE8A258C7F4A00CCE032 /* DCBModule_Category */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43B6FEBA258C7F4C00CCE032 /* Build configuration list for PBXNativeTarget "DCBModule_Category" */;
 			buildPhases = (
+				CAAECCAF63860A413E8901B2 /* [CP] Check Pods Manifest.lock */,
 				43B6FE87258C7F4A00CCE032 /* Sources */,
 				43B6FE88258C7F4A00CCE032 /* Frameworks */,
 				43B6FE89258C7F4A00CCE032 /* Resources */,
+				E380F413FC37A926D4A2B6C1 /* Headers */,
+				DCFB43E1DF4A569F2C0592F2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,6 +341,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CAAECCAF63860A413E8901B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DCBModule_Category-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCFB43E1DF4A569F2C0592F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DCBModule_Category/Pods-DCBModule_Category-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DCBModule_Category/Pods-DCBModule_Category-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DCBModule_Category/Pods-DCBModule_Category-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		43B6FE87258C7F4A00CCE032 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -270,6 +392,8 @@
 				43B6FE90258C7F4A00CCE032 /* AppDelegate.m in Sources */,
 				43B6FEA1258C7F4C00CCE032 /* main.m in Sources */,
 				43B6FE93258C7F4A00CCE032 /* SceneDelegate.m in Sources */,
+				1D8117F6F730B2F12D26288D /* Target_DCBModule_Category.m in Sources */,
+				043D650C42442F064F43F8CB /* CTMediator+DCBModule_Category.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +562,7 @@
 		};
 		43B6FEBB258C7F4C00CCE032 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E38E14F527E901B184D28DE /* Pods-DCBModule_Category.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -455,6 +580,7 @@
 		};
 		43B6FEBC258C7F4C00CCE032 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64370B785DF8F9F00A719CAA /* Pods-DCBModule_Category.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
